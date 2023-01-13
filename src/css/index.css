@@ -89,7 +89,10 @@ body{
      font-size: 2.5rem;
 }
 
-
+/* If no parking, disabled, or charging available */
+.hide{
+     visibility: hidden;
+}
 
 
 /* Footer styling ------------------------------- */
