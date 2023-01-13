@@ -86,7 +86,8 @@ body{
 
 .parking-spots__number{
      color: var(--orange);
-     font-size: 2.5rem;
+     font-size: 3rem;
+     font-weight: bold;
 }
 
 /* If no parking, disabled, or charging available */
