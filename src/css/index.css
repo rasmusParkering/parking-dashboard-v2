@@ -10,16 +10,20 @@
      src: url(../fonts/Flama-Basic.otf);
 }
 
+*{
+     margin: 0;
+     padding: 0;
+     /* border: 1px solid red; */
+}
+
 body{
      background-color: var(--blue1);
 }
-*{
-     /* border: 1px solid red; */
-}
+
 .app{
      font-family: 'Flama';
      display: grid;
-     grid-template-rows: 1fr 7fr 2fr;
+     grid-template-rows: 1.5fr 7fr 2fr;
      height: 100vh;
      overflow: hidden;
 }
@@ -39,22 +43,20 @@ body{
      background-color: white;
      display: flex;
      flex-direction: column;
-     height: 70vh;
 }
 
 .floors__item{
-     flex: 1;
+     flex: 1 1;
      background-color: white;
-
      display: grid;
-     grid-template-columns: 1fr 3fr 1fr;
-     height: 10vh;
+     grid-template-columns: 1fr 3fr 2fr;
      border-top: #025578 5px solid;
 }
 
 .floors__number{
      font-size: 4rem;
      color: var(--blue1);
+     margin: auto;
 }
 
 .floors__titel{
@@ -67,22 +69,30 @@ body{
 .floors__parking-spots{
      display: flex;
      justify-content: space-around;
-     height: 100%;
+     max-height: 100%;
 }
 
 .parking-spots__available-parking{
      display: flex;
      flex-direction: column;
      align-items: center;
-     justify-content: space-between;
+     justify-content: space-around;
+}
+
+.parking-spots__icon{
+     width: 3rem;
+     height: 3rem;
 }
 
 .parking-spots__number{
      color: var(--orange);
+     font-size: 3rem;
+     font-weight: bold;
 }
 
-.parking-spots__icon{
-     width: 2rem;
+/* If no parking, disabled, or charging available */
+.hide{
+     visibility: hidden;
 }
 
 
@@ -92,13 +102,13 @@ body{
      color: white;
      display: flex;
      flex-direction: column;
-     justify-content: center;
+     justify-content: space-around;
      align-items: center;
 }
 
 .footer__text{
-     font-size: 1.5rem;
-     padding: 0 1rem;
+     font-size: 1.7rem;
+     padding: 0 2rem;
      text-align: center;
 }
 .footer__image{
