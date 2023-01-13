@@ -7,23 +7,26 @@
 
 @font-face {
      font-family: 'Flama';
-     src: url(../fonts/Flama-Basic.otf) format('otf');
+     src: url(../fonts/Flama-Basic.otf);
 }
 
 body{
      background-color: var(--blue1);
 }
 *{
-     border: 1px solid red;
+     /* border: 1px solid red; */
 }
 .app{
-     font-family: 'Flama'
+     font-family: 'Flama';
+     display: grid;
+     grid-template-rows: 1fr 7fr 2fr;
+     height: 100vh;
+     overflow: hidden;
 }
 /* Header styling ------------------------------- */
 
 .header{
      font-size: 2rem;
-     height: 10vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -46,6 +49,7 @@ body{
      display: grid;
      grid-template-columns: 1fr 3fr 1fr;
      height: 10vh;
+     border-top: #025578 5px solid;
 }
 
 .floors__number{
@@ -85,9 +89,7 @@ body{
 /* Footer styling ------------------------------- */
 
 .footer{
-     height: 20vh;
      color: white;
-     
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -95,11 +97,11 @@ body{
 }
 
 .footer__text{
-     font-size: 2rem;
+     font-size: 1.5rem;
      padding: 0 1rem;
      text-align: center;
 }
 .footer__image{
-     width: 50%;
-     max-height: 50%;
+     width: 100%;
+     padding-bottom:1rem;
 }
