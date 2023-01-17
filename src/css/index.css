@@ -13,6 +13,10 @@
      font-family: Flama Bold;
      src: url(../fonts/Flama-Bold.otf);
 }
+@font-face {
+     font-family: Flama Extrabold;
+     src: url(../fonts/Flama-Extrabold.otf);
+}
 
 *{
      margin: 0;
@@ -96,7 +100,7 @@ body{
 .parking-spots__number{
      color: var(--orange);
      font-size: 5rem;
-     font-weight: bold;
+     font-family: Flama Bold;
 }
 
 /* If no parking, disabled, or charging available */
@@ -116,11 +120,12 @@ body{
 }
 
 .footer__text{
-     font-size: 1.8rem;
+     font-size: 2rem;
      padding: 0 2rem;
      text-align: center;
+     text-decoration: underline;
 }
 .footer__image{
-     width: 80%;
+     width: 90%;
      padding-bottom:0.5rem;
 }

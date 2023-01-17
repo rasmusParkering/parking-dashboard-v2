@@ -6,19 +6,19 @@ import {useState} from 'react';
 
 function App() {
 
-  const {state, setState} = useState({
-    parkingData: {
-      levelOne: {
-        freeParkingLots: 147,
-        chargingParkingLot: 63,
-        handicap: 14,
-      }
-    }
-  });
+  // const {state, setState} = useState({
+  //   parkingData: {
+  //     levelOne: {
+  //       freeParkingLots: 147,
+  //       chargingParkingLot: 63,
+  //       handicap: 14,
+  //     }
+  //   }
+  // });
   
   return (
     <div className="app">
-      <Header carLotOwner="Stigsborg"/>
+      <Header carLotOwner="STIGSBORG"/>
       <Floors />
       <Footer />
     </div>
