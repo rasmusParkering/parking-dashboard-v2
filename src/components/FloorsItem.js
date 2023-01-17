@@ -11,7 +11,7 @@ const FloorsItem = (props) => {
 			<div className="floors__parking-spots">
 				<div className={`parking-spots__available-parking ${props.hideParking ? "hide" : ""}`}>
 					<img className="parking-spots__icon" src={parkingIcon} />
-					<h3 className="parking-spots__number">14</h3>
+					<h3 className="parking-spots__number">147</h3>
 				</div> 
 				<div className={`parking-spots__available-parking ${props.hideDisabled ? "hide" : ""}`}>
 					<img className="parking-spots__icon" src={wheelchairIcon} />

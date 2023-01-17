@@ -6,6 +6,7 @@ export const Floors = () => {
             <FloorsItem floorNumber="6." floorName="Udkigspost" hideParking={true}
                 hideDisabled={true}
                 hideCharge={true} />
+            {/* <p>mkvldfmvkldfmvkldf</p> */}
             <FloorsItem
                 floorNumber="5."
                 floorName="Betalingsparkering Månedsparkering"
@@ -30,7 +31,7 @@ export const Floors = () => {
             />
             <FloorsItem
                 floorNumber="2."
-                floorName="Reserveret Betalingsparkerings"
+                floorName="Reserveret Betalingsparkering"
                 hideParking={false}
                 hideDisabled={true}
                 hideCharge={true}
