@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/parking-dashboard-v2/static/css/main.b3548e1c.css",
-    "main.js": "/parking-dashboard-v2/static/js/main.145f6b68.js",
+    "main.js": "/parking-dashboard-v2/static/js/main.f3a0b2fa.js",
     "static/js/787.28cb0dcd.chunk.js": "/parking-dashboard-v2/static/js/787.28cb0dcd.chunk.js",
     "static/media/Flama-Bold.otf": "/parking-dashboard-v2/static/media/Flama-Bold.100a04b4e38a5f68fd10.otf",
     "static/media/Flama-Basic.otf": "/parking-dashboard-v2/static/media/Flama-Basic.6c9813e48a90daccee9f.otf",
-    "static/media/Oparko-Logo.svg": "/parking-dashboard-v2/static/media/Oparko-Logo.1a41422f378ca7a1c458d31db8247224.svg",
+    "static/media/parkeringsKompagniet.png": "/parking-dashboard-v2/static/media/parkeringsKompagniet.6a078d015c84bca4ff45.png",
     "static/media/fuel-icon.svg": "/parking-dashboard-v2/static/media/fuel-icon.29c3483f374d3531e265f956650b53ee.svg",
     "static/media/result.svg": "/parking-dashboard-v2/static/media/result.046cb3aed2e02f27312e3f84291a99e2.svg",
     "static/media/parking-icon.svg": "/parking-dashboard-v2/static/media/parking-icon.79ee3059c6fcdb5c7978e8dc379b3acb.svg",
     "index.html": "/parking-dashboard-v2/index.html",
     "main.b3548e1c.css.map": "/parking-dashboard-v2/static/css/main.b3548e1c.css.map",
-    "main.145f6b68.js.map": "/parking-dashboard-v2/static/js/main.145f6b68.js.map",
+    "main.f3a0b2fa.js.map": "/parking-dashboard-v2/static/js/main.f3a0b2fa.js.map",
     "787.28cb0dcd.chunk.js.map": "/parking-dashboard-v2/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3548e1c.css",
-    "static/js/main.145f6b68.js"
+    "static/js/main.f3a0b2fa.js"
   ]
 }
