@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/parking-dashboard-v2/static/css/main.b3548e1c.css",
-    "main.js": "/parking-dashboard-v2/static/js/main.f3a0b2fa.js",
+    "main.css": "/parking-dashboard-v2/static/css/main.87b26b70.css",
+    "main.js": "/parking-dashboard-v2/static/js/main.967185bc.js",
     "static/js/787.28cb0dcd.chunk.js": "/parking-dashboard-v2/static/js/787.28cb0dcd.chunk.js",
     "static/media/Flama-Bold.otf": "/parking-dashboard-v2/static/media/Flama-Bold.100a04b4e38a5f68fd10.otf",
+    "static/media/Flama-Extrabold.otf": "/parking-dashboard-v2/static/media/Flama-Extrabold.b27557651ec522e00c2c.otf",
     "static/media/Flama-Basic.otf": "/parking-dashboard-v2/static/media/Flama-Basic.6c9813e48a90daccee9f.otf",
     "static/media/parkeringsKompagniet.png": "/parking-dashboard-v2/static/media/parkeringsKompagniet.6a078d015c84bca4ff45.png",
     "static/media/fuel-icon.svg": "/parking-dashboard-v2/static/media/fuel-icon.29c3483f374d3531e265f956650b53ee.svg",
     "static/media/result.svg": "/parking-dashboard-v2/static/media/result.046cb3aed2e02f27312e3f84291a99e2.svg",
-    "static/media/parking-icon.svg": "/parking-dashboard-v2/static/media/parking-icon.79ee3059c6fcdb5c7978e8dc379b3acb.svg",
+    "static/media/parking-icon.svg": "/parking-dashboard-v2/static/media/parking-icon.b9c7a3453ce1127db90d817fa728f364.svg",
     "index.html": "/parking-dashboard-v2/index.html",
-    "main.b3548e1c.css.map": "/parking-dashboard-v2/static/css/main.b3548e1c.css.map",
-    "main.f3a0b2fa.js.map": "/parking-dashboard-v2/static/js/main.f3a0b2fa.js.map",
+    "main.87b26b70.css.map": "/parking-dashboard-v2/static/css/main.87b26b70.css.map",
+    "main.967185bc.js.map": "/parking-dashboard-v2/static/js/main.967185bc.js.map",
     "787.28cb0dcd.chunk.js.map": "/parking-dashboard-v2/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3548e1c.css",
-    "static/js/main.f3a0b2fa.js"
+    "static/css/main.87b26b70.css",
+    "static/js/main.967185bc.js"
   ]
 }
