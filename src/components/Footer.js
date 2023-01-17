@@ -1,4 +1,4 @@
-import Oparko from "../images/Oparko-Logo.svg";
+import ParkeringsKompagnietLogo from "../images/parkeringsKompagniet.png";
 
 const Footer = (props) => {
 	return (
@@ -7,7 +7,7 @@ const Footer = (props) => {
 				Husk altid at starte din parkering i app eller ved brug af QR-kode.
 			</h4>
 			<div>
-				<img className="footer__image" src={Oparko} alt="Oparko - Parkeringssystemer til erhverv"/>
+				<img className="footer__image" src={ParkeringsKompagnietLogo} alt="Oparko - Parkeringssystemer til erhverv"/>
 			</div>
 		</footer>
 	);

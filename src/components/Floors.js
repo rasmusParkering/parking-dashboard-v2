@@ -12,14 +12,14 @@ export const Floors = () => {
                 floorName="Betalingsparkering Månedsparkering"
                 hideParking={false}
                 hideDisabled={false}
-                hideCharge={true}
+                hideCharge={false}
             />
             <FloorsItem
                 floorNumber="4."
                 floorName="Betalingsparkering Månedsparkering"
                 hideParking={false}
                 hideDisabled={false}
-                hideCharge={true}
+                hideCharge={false}
                 
             />
             <FloorsItem
@@ -27,14 +27,14 @@ export const Floors = () => {
                 floorName="Betalingsparkering Månedsparkering"
                 hideParking={false}
                 hideDisabled={false}
-                hideCharge={true}
+                hideCharge={false}
             />
             <FloorsItem
                 floorNumber="2."
                 floorName="Reserveret Betalingsparkering"
                 hideParking={false}
-                hideDisabled={true}
-                hideCharge={true}
+                hideDisabled={false}
+                hideCharge={false}
             />
             <FloorsItem
                 floorNumber="1."
@@ -45,7 +45,7 @@ export const Floors = () => {
             />
             <FloorsItem floorNumber="0." floorName="Korttidsparkering" hideParking={false}
                 hideDisabled={false}
-                hideCharge={true} />
+                hideCharge={false} />
         </main>
     );
 };
